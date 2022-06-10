@@ -148,7 +148,7 @@ namespace MET_Station
             Chart1.ChartAreas["ChartArea1"].AxisY.Title = "Nhiệt độ (Độ C)";//Đặt tên trục tung là nhiệt độ
             for (int i = 0; i < cb.Rows.Count; i++)
             { 
-                Chart1.Series["Nhietdo"].Points.AddXY(cb.Rows[i]["Datetime"], cb.Rows[i]["Value"]);//Vẽ biểu đồ đơn giản,sau sẽ vẽ nhiều option hơn
+                Chart1.Series["Nhietdo"].Points.AddXY(cb.Rows[i]["DateTime"], cb.Rows[i]["Value"]);//Vẽ biểu đồ đơn giản,sau sẽ vẽ nhiều option hơn
             }
         }
         protected void Chart2_Load(object sender, EventArgs e)
@@ -160,7 +160,7 @@ namespace MET_Station
             Chart2.ChartAreas["ChartArea1"].AxisY.Title = "Độ ẩm (%)";
             for (int i = 0; i < cb.Rows.Count; i++)
             {             
-                Chart2.Series["Doam"].Points.AddXY(cb.Rows[i]["Datetime"], cb.Rows[i]["Value"]);
+                Chart2.Series["Doam"].Points.AddXY(cb.Rows[i]["DateTime"], cb.Rows[i]["Value"]);
             }
         }
         protected void Chart3_Load(object sender, EventArgs e)
@@ -172,7 +172,7 @@ namespace MET_Station
             Chart3.ChartAreas["ChartArea1"].AxisY.Title = "Tốc độ gió (m/s)";
             for (int i = 0; i < cb.Rows.Count; i++)
             {             
-                Chart3.Series["Tocdogio"].Points.AddXY(cb.Rows[i]["Datetime"], cb.Rows[i]["Value"]);
+                Chart3.Series["Tocdogio"].Points.AddXY(cb.Rows[i]["DateTime"], cb.Rows[i]["Value"]);
             }
         }
         protected void Chart4_Load(object sender, EventArgs e)

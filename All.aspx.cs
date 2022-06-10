@@ -28,16 +28,16 @@ namespace MET_Station
             "<table class='table table-bordered table - vertical - middle nomargin'>" +
                 "<thead>" +
                     "<tr>" +
-                        "<th class='width-30'>ID</th>" +
-                        "<th>Value</th>" +
-                        "<th>Datetime</th>" +
+                        "<th class='width-100 text-center'>Mã</th>" +
+                        "<th class='text-center'>Kết quả</th>" +
+                        "<th class='text-center'>Ngày thực hiện</th>" +
                     "</tr>" +
                 "</thead><tbody>";
 
             DataTable cb = _sql.GetSensorLatest(SensorID);
             for (int i = 0; i < cb.Rows.Count; i++)
             {
-                string macambien = cb.Rows[i]["ID"].ToString();
+                string macambien = cb.Rows[i]["Code"].ToString();
                 double giatri = Convert.ToDouble(cb.Rows[i]["Value"]);
                 DateTime thoigian = Convert.ToDateTime(cb.Rows[i]["DateTime"]);
                 html +=

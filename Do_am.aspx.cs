@@ -24,14 +24,14 @@ namespace MET_Station
             string html =
             "<table class='fooTableInit'>" +
                 "<thead><tr>" +
-                    "<th width='50%' class='foo-cell'>Datetime</th>" +
-                    "<th data-type='numeric' data-hide = 's300'> Value </th>" +
+                    "<th width='50%' class='foo-cell'>Ngày thực hiện</th>" +
+                    "<th data-type='numeric' data-hide = 's300'> Kết quả </th>" +
                 "</tr></thead><tbody>";
 
             DataTable cb = _sql.GetSensor("CB 002");
             for (int i = 0; i < cb.Rows.Count; i++)
             {
-                DateTime thoigian = Convert.ToDateTime(cb.Rows[i]["Datetime"]);
+                DateTime thoigian = Convert.ToDateTime(cb.Rows[i]["DateTime"]);
                 double giatri = Convert.ToDouble(cb.Rows[i]["Value"]);
 
                 html +=

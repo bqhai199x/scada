@@ -8,7 +8,7 @@
 			    <div class="panel-heading">
 				    <span class="title elipsis">
 					    <strong>GIỚI THIỆU PROJECT</strong> <!-- panel title -->
-					    <small class="size-12 weight-300 text-mutted hidden-xs">9/3/2021</small>
+					    <small class="size-12 weight-300 text-mutted hidden-xs"></small>
 				    </span>
 				    <!-- right options -->
 				    <ul class="options pull-right list-inline">
@@ -25,7 +25,7 @@
                     <div> <h4>   </h4></div>
                     <h1><strong>TRẠM QUAN TRẮC THỜI TIẾT</strong></h1>
                     <span style="font-size:22px"><strong>GVHD: TS.Đào Quý Thịnh </strong></span><br />
-                    <span style="font-size:18px"><strong>Nhóm : Đồ Án Thiết Kế </strong></span>
+                    <span style="font-size:18px"><strong>Nhóm : 7 </strong></span>
 			    </div>
 			    <!-- /panel content -->
 
@@ -38,35 +38,35 @@
 				    -->
 				    <ul class="easypiecharts list-unstyled">
 					    <li class="clearfix">
-						    <span class="stat-number">Nguyễn Thị Thanh</span>
-						    <span class="stat-title">MSSV: 20174207</span>
+						    <span class="stat-number">Đào Xuân Dũng</span>
+						    <span class="stat-title">MSSV: 20181420</span>
 
 						    <span data-barcolor="#F8CB00" data-trackcolor="#dddddd" data-scalecolor="#dddddd" data-size="60" data-linewidth="4" style="width: 60px; height: 60px;">
-							    <img class="img-circle" src="assets/images/Nguyen_Thanh.jpg" width="60px" />
+							    <img class="img-circle" src="assets/images/dung.png" width="60px" />
 						    </span> 
 					    </li>
 					    <li class="clearfix">
-						    <span class="stat-number">Phạm Trung Hiếu</span>
-						    <span class="stat-title">MSSV: 20173873</span>
+						    <span class="stat-number">Dương Thị Thu Hà</span>
+						    <span class="stat-title">MSSV: 20181451</span>
 
 						    <span data-barcolor="#F8CB00" data-trackcolor="#dddddd" data-scalecolor="#dddddd" data-size="60" data-linewidth="4" style="width: 60px; height: 60px;">
-							    <img class="img-circle" src="assets/images/Trung_Hieu.jpg" width="60px" />
+							    <img class="img-circle" src="assets/images/ha.png" width="60px" />
 						    </span> 
 					    </li>
 					    <li class="clearfix">
-						    <span class="stat-number">Vũ Văn Hoan</span>
-						    <span class="stat-title">MSSV: 20173890</span>
+						    <span class="stat-number">Đào Trường Sang</span>
+						    <span class="stat-title">MSSV: 20181723</span>
 
 						    <span data-barcolor="#F8CB00" data-trackcolor="#dddddd" data-scalecolor="#dddddd" data-size="60" data-linewidth="4" style="width: 60px; height: 60px;">
-							    <img class="img-circle" src="assets/images/Hoan_Vu.jpg" width="60px" />
+							    <img class="img-circle" src="assets/images/sang.png" width="60px" />
 						    </span> 
 					    </li>
 					    <li class="clearfix">
-						    <span class="stat-number">Lê Văn Công</span>
-						    <span class="stat-title">MSSV: 20173694</span>
+						    <span class="stat-number">Nguyễn Thị Vân</span>
+						    <span class="stat-title">MSSV: 20181835</span>
 
 						    <span data-barcolor="#F8CB00" data-trackcolor="#dddddd" data-scalecolor="#dddddd" data-size="60" data-linewidth="4" style="width: 60px; height: 60px;">
-							    <img class="img-circle" src="assets/images/Cong_Le.png" width="60px" />
+							    <img class="img-circle" src="assets/images/van.png" width="60px" />
 						    </span> 
 					    </li>
 				    </ul>

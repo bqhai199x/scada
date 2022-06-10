@@ -37,7 +37,7 @@
                         <label>
                             <!-- PER PAGE SELECTOR . you can move it to panel-heading -->
                             <select class="form-control pointer" id="change-page-size">
-                                <option value="1000">Select All</option>
+                                <option value="1000">Tất cả</option>
                                 <option value="4">1 / page</option>
                                 <option value="8">2 / page</option>
                                 <option value="12">3 / page</option>

@@ -31,7 +31,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>ID</Value>
+                              <Value>Mã</Value>
                               <Style>
                                 <FontFamily>Times New Roman</FontFamily>
                                 <FontWeight>Bold</FontWeight>
@@ -327,7 +327,7 @@
         </TablixRowHierarchy>
         <DataSetName>DataSet1</DataSetName>
         <Top>0.64459in</Top>
-        <Left>1.62246in</Left>
+        <Left>0in</Left>
         <Height>0.5in</Height>
         <Width>6.40866in</Width>
         <Style>
@@ -373,7 +373,7 @@
           </Paragraphs>
           <rd:DefaultName>Textbox4</rd:DefaultName>
           <Top>1.03614cm</Top>
-          <Left>8.0701cm</Left>
+          <Left>3.0701cm</Left>
           <Height>0.94396cm</Height>
           <Width>9.84188cm</Width>
           <Style>
@@ -416,7 +416,7 @@
           </Paragraphs>
           <rd:DefaultName>PageNumber</rd:DefaultName>
           <Top>0.78479cm</Top>
-          <Left>17.89904cm</Left>
+          <Left>12.89904cm</Left>
           <Height>0.6cm</Height>
           <Width>2.5cm</Width>
           <Style>
@@ -449,7 +449,7 @@
           </Paragraphs>
           <rd:DefaultName>ExecutionTime</rd:DefaultName>
           <Top>0.78479cm</Top>
-          <Left>9.85539cm</Left>
+          <Left>4.85539cm</Left>
           <Height>0.6cm</Height>
           <Width>4.2727cm</Width>
           <ZIndex>1</ZIndex>
@@ -494,7 +494,7 @@
       </Query>
       <Fields>
         <Field Name="ID">
-          <DataField>ID</DataField>
+          <DataField>Code</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
         <Field Name="Name">

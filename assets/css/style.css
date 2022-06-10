@@ -6,11 +6,16 @@ Author URL: http://w3layouts.com
     scroll-behavior: smooth;
 }
 
+@font-face {
+    font-family: Noto Sans;
+    src: url(NotoSans-Medium.ttf);
+}
+
 body,
 html {
     margin: 0;
     padding: 0;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Sans'/*, sans-serif*/;
 }
 
 * {

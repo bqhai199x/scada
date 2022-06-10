@@ -27,24 +27,23 @@ namespace MET_Station.App_Code
             string strSQL;
             if (SensorID == "*")
             {
-                strSQL = "select * from Table_1;";
+                strSQL = "select * from Data;";
             }
             else
             {
-                strSQL = "select * from Table_1 where ID = N'" + SensorID + "';";
+                strSQL = "select * from Data where Code = N'" + SensorID + "';";
             }
             return GetData(strSQL, connectionString);
         }
         public DataTable GetSensorLatest(string SensorID)
         {
-            string strSQL = "select * from Table_1 where ID = N'" + SensorID + "' order by DateTime desc limit 5;";
+            string strSQL = "select * from Data where Code = N'" + SensorID + "' order by DateTime desc limit 5;";
             return GetData(strSQL, connectionString);
         }
         public DataTable SearchSensor(string SensorID, string starttime, string endtime)
         {
-            string strSQL = "select * from Table_1 where ID=N'" + SensorID + "' " +
-                            "and Datetime >= convert(datetime, N'" + starttime + "', 103) " +
-                            "and Datetime <= convert(datetime, N'" + endtime + "',103);";
+            string strSQL = $"select * from Data where Code = N'" + SensorID + "' " +
+                            $"and DateTime between '{starttime}' and '{endtime}'";
 
             return GetData(strSQL, connectionString);
         }

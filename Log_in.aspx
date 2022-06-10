@@ -1,14 +1,10 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Log_in.aspx.cs" Inherits="MET_Station.Log_in" %>
 
-<!--
-Author: CongLe
-Author URL: https://www.facebook.com/profile.php?id=100011248904361
--->
 <!DOCTYPE html>
 <html lang="zxx">
 
 <head>
-    <title>Design by Cong Le</title>
+    <title>Hệ thống quan trắc thời tiết</title>
     <!-- Meta tag Keywords -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8" />
@@ -68,8 +64,7 @@ Author URL: https://www.facebook.com/profile.php?id=100011248904361
         </div>
         <!-- copyright-->
         <div class="copyright text-center">
-            <p class="copy-footer-29">© 30-05-2021 Login Form. All rights reserved | Design by <a
-                        href="https://www.facebook.com/profile.php?id=100011248904361">CongLe</a></p>
+            <p class="copy-footer-29">© 10-06-2022 Hệ thống quan trắc thời tiết  |  Phát triển bởi nhóm 7</p>
         </div>
         <!-- //copyright-->
     </section>

@@ -9,6 +9,8 @@ using System.Data;
 using System.Data.SqlClient;
 using MET_Station.App_Code;
 using Microsoft.Reporting.WebForms;
+using MySql.Data.MySqlClient;
+
 namespace MET_Station
 {
     public partial class Bao_cao : System.Web.UI.Page
@@ -49,9 +51,8 @@ namespace MET_Station
         }
         void Timkiemgiatricambientheongay(string starttime, string endtime)
         {
-            SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["ConStr"].ConnectionString);
-            SqlDataAdapter da = new SqlDataAdapter("select * from Table_1 where Datetime >= convert(datetime, N'" + starttime + "', 103) " +
-                            "and Datetime <= convert(datetime, N'" + endtime + "',103);", con);
+            MySqlConnection con = new MySqlConnection(ConfigurationManager.ConnectionStrings["ConStr"].ConnectionString);
+            MySqlDataAdapter da = new MySqlDataAdapter($"select * from Data where DateTime between '{starttime}' and '{endtime}'", con);
             DataTable dt = new DataTable("table1");
             da.Fill(dt);
             ReportViewer1.ProcessingMode = ProcessingMode.Local;

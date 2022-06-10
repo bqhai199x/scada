@@ -37,7 +37,7 @@
                         <label>
                             <!-- PER PAGE SELECTOR . you can move it to panel-heading -->
                             <select class="form-control pointer" id="change-page-size">
-                               <option value="1000">Select All</option>
+                               <option value="1000">Tất cả</option>
                                 <option value="5">5 / page</option>
                                 <option value="10">10 / page</option>
                                 <option value="15">15 / page</option>
@@ -47,10 +47,10 @@
                             </select>
                         </label><!-- /PER PAGE SELECTOR -->
 
-                        <asp:Label ID="Label1" runat="server" Font-Size="Medium" Text="ID: "></asp:Label> <asp:TextBox ID="tbxID" runat="server" placeholder="CB 001"></asp:TextBox>
-                        <asp:Label ID="Label2" runat="server" Font-Size="Medium" Text=" StartTime: "></asp:Label><asp:TextBox ID="tbxStarttime" runat="server" placeholder="dd/mm/yyyy hh:mm:ss"></asp:TextBox>
-                        <asp:Label ID="Label3" runat="server" Font-Size="Medium" Text=" EndTime: "></asp:Label> <asp:TextBox ID="tbxEndtime" runat="server" placeholder="dd/mm/yyyy hh:mm:ss"></asp:TextBox>
-                        <asp:Button  ID="btnXem" runat="server" backcolor="#ff0000" Font-Size="18px" Text="Xem giá trị cảm biến" OnClick="btnXem_Click" />
+                        <asp:Label ID="Label1" runat="server" Font-Size="Medium" Text="Mã: "></asp:Label> <asp:TextBox ID="tbxID" runat="server" placeholder="CB 001"></asp:TextBox>
+                        <asp:Label ID="Label2" runat="server" Font-Size="Medium" Text=" Thời gian bắt đầu: "></asp:Label><asp:TextBox ID="tbxStarttime" runat="server" placeholder="yyyy/mm/dd hh:mm:ss"></asp:TextBox>
+                        <asp:Label ID="Label3" runat="server" Font-Size="Medium" Text=" Thời gian kết thúc: "></asp:Label> <asp:TextBox ID="tbxEndtime" runat="server" placeholder="yyyy/mm/dd hh:mm:ss"></asp:TextBox>
+                        <asp:Button  ID="btnXem" runat="server" backcolor="#ff0000" Font-Size="18px" BorderStyle="None" ForeColor="White" Text="Xem giá trị cảm biến" OnClick="btnXem_Click" />
                         <asp:Literal ID="Literal_Timkiemgiatricambien" runat="server"></asp:Literal>
                     </div>
                     <!-- /panel content -->
