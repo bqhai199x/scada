@@ -1,0 +1,140 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Page.master.cs" Inherits="MET_Station.Page" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp"%>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>Dữ liệu cảm biến</title>
+    <meta name="description" content="" />
+    <meta name="Author" content="Lê Văn Công" />
+
+    <!-- mobile settings -->
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+
+    <!-- WEB FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&amp;subset=latin,latin-ext,cyrillic,cyrillic-ext" rel="stylesheet" type="text/css" />
+
+    <!-- CORE CSS -->
+    <link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    
+    <!-- THEME CSS -->
+    <link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/color_scheme/green.css" rel="stylesheet" type="text/css" id="color_scheme" />
+
+    <style>
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+            color: #FF2D00;
+            font-weight: bolder;
+            border-color: red;
+            border-width: medium;
+            border-style: solid;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <div id="wrapper" class="clearfix">
+            <!-- ASIDE Keep it outside of #wrapper (responsive purpose)-->
+            <aside id="aside">
+                <nav id="sideNav"><!-- MAIN MENU -->
+                    <ul class="nav nav-list">
+                        <li class="active el_primary" id="el_0"><!-- dashboard -->
+                            <a class="dashboard" href="All.aspx"><!-- warning - url used by default by ajax (if eneabled) -->
+                                <i class="main-icon fa fa-home"></i> <span>Trang chủ</span>
+                            </a>
+                        </li>
+                        <li class="el_primary" id="el_1">
+                            <a href="#">
+                                <i class="fa fa-menu-arrow pull-right"></i>
+                                <i class="main-icon fa fa-bar-chart-o"></i> <span>Dữ liệu thời tiết</span>
+                            </a>
+                            <ul><!-- submenus -->
+                                <li><a href="Tat_ca_du_lieu.aspx">Tất cả dữ liệu</a></li>
+                                <li><a href="Nhiet_do.aspx">Nhiệt độ</a></li>
+                                <li><a href="Do_am.aspx">Độ ẩm</a></li>
+                                <li><a href="Toc_do_gio.aspx">Tốc độ gió</a></li>
+                                <li><a href="DataSensor_4.aspx">Cảm biến 4</a></li>
+                            </ul>
+                        </li>        
+                        <li class="el_primary" id="el_2">
+                            <a href="Tim_kiem.aspx">
+                                <i class="main-icon fa fa-search"></i> <span>Tìm Kiếm</span>
+                            </a>
+                        </li>
+                        <li class="el_primary" id="el_3">
+                            <a href="SCADA Online.aspx">
+                                <i class="main-icon fa fa-dashboard"></i> <span>Online SCADA</span>
+                            </a>
+                        </li>
+                        <li class="el_primary" id="el_4">
+                            <a href="Bao_cao.aspx">
+                                <i class="main-icon fa fa-list"></i> <span>Truy Xuất Báo Cáo</span>
+                            </a>
+                        </li>
+                         <li class="el_primary" id="el_5">
+                            <a href="Log_in.aspx">
+                                <i class="main-icon fa fa-user"></i> <span>Đăng Xuất</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <span id="asidebg"><!-- aside fixed background --></span>
+            </aside>
+            <!-- /ASIDE -->
+            <!-- HEADER -->
+            <header id="header">
+
+                <!-- Mobile Button -->
+                <button id="mobileMenuBtn"></button>
+
+                <!-- Logo -->
+                <span class="logo pull-left">
+                    <img src="assets/images/logo2.png" alt="admin panel" height="40">
+                </span>
+
+                <nav>
+
+                    <!-- OPTIONS LIST -->
+                    <ul class="nav pull-right">
+
+                        <!-- USER OPTIONS -->
+                        <li class="dropdown pull-left">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                                <img class="user-avatar" alt="" src="assets/images/pngegg2.png" height="34"> 
+                                <span class="user-name">
+                                    <span class="hidden-xs">
+                                       Admin : Công Lê
+                                    </span>
+                                </span>
+                            </a>
+                        </li>
+                        <!-- /USER OPTIONS -->
+
+                    </ul>
+                    <!-- /OPTIONS LIST -->
+
+                </nav>
+
+            </header>
+            <!-- /HEADER -->
+            <!--CONTENT-->
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <!--/CONTENT-->
+        </div>
+        <!-- FOOTER-->        
+        <!-- STYLESWITCHER - REMOVE -->
+        <script async type="text/javascript" src="assets/plugins/styleswitcher/styleswitcher.js"></script>
+        <!-- /FOOTER-->
+    </form>
+</body>
+</html>
