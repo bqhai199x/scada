@@ -47,7 +47,7 @@
                             <ajaxToolkit:TextBoxWatermarkExtender ID="txttaikhoan_TextBoxWatermarkExtender" runat="server" BehaviorID="txttaikhoan_TextBoxWatermarkExtender" TargetControlID="txttaikhoan" WatermarkText="Tài Khoản" />
 &nbsp;<asp:TextBox ID="txtmatkhau" runat="server" Width="358px" TextMode="Password"></asp:TextBox>
                             <ajaxToolkit:TextBoxWatermarkExtender ID="txtmatkhau_TextBoxWatermarkExtender" runat="server" BehaviorID="txtmatkhau_TextBoxWatermarkExtender" TargetControlID="txtmatkhau" WatermarkText="Mật khẩu" />
-                            <asp:Button ID="btdangnhap" runat="server" BackColor="#0099FF" CssClass="auto-style2" ForeColor="White" Text="Đăng Nhập" Width="122px" OnClick="btdangnhap_Click" />
+                            <asp:Button ID="btdangnhap" runat="server" BackColor="#D291BC" CssClass="auto-style2" ForeColor="White" Text="Đăng Nhập" Width="122px" OnClick="btdangnhap_Click" />
                         
                         <p class="account">Bạn chưa có tài khoản ? <a href="#signup">Đăng ký</a></p>
                             <asp:ScriptManager ID="ScriptManager1" runat="server">
@@ -64,7 +64,7 @@
         </div>
         <!-- copyright-->
         <div class="copyright text-center">
-            <p class="copy-footer-29">© 10-06-2022 Hệ thống quan trắc thời tiết  |  Phát triển bởi nhóm 7</p>
+            <p class="copy-footer-29">© 06-2022 Hệ thống quan trắc thời tiết  |  Phát triển bởi nhóm 7</p>
         </div>
         <!-- //copyright-->
     </section>

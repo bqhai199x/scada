@@ -19,6 +19,10 @@ namespace MET_Station
         SQL _sql;
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Convert.ToInt32(Session["UserRole"]) != 1)
+            {
+                Response.Redirect("/All.aspx");
+            }
             Plc _Plc = new Plc(CpuType.S71200, tbConnect.Text, 0, 0);
             if (_Plc.Open() == ErrorCode.NoError)
             { //Xu li du lieu kieu real nhan tu PLC sang C# thanh dau cham dong(float)bang phan tach 4 byte bo nho roi ep kieu

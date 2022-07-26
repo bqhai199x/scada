@@ -41,32 +41,32 @@
 						    <span class="stat-number">Đào Xuân Dũng</span>
 						    <span class="stat-title">MSSV: 20181420</span>
 
-						    <span data-barcolor="#F8CB00" data-trackcolor="#dddddd" data-scalecolor="#dddddd" data-size="60" data-linewidth="4" style="width: 60px; height: 60px;">
-							    <img class="img-circle" src="assets/images/dung.png" width="60px" />
+						    <span data-barcolor="#B03060" data-trackcolor="#dddddd" data-scalecolor="#dddddd" data-size="60" data-linewidth="4" style="width: 60px; height: 60px;">
+							    <img class="img-circle" src="assets/images/avatars/dung.png" width="60px" />
 						    </span> 
 					    </li>
 					    <li class="clearfix">
 						    <span class="stat-number">Dương Thị Thu Hà</span>
 						    <span class="stat-title">MSSV: 20181451</span>
 
-						    <span data-barcolor="#F8CB00" data-trackcolor="#dddddd" data-scalecolor="#dddddd" data-size="60" data-linewidth="4" style="width: 60px; height: 60px;">
-							    <img class="img-circle" src="assets/images/ha.png" width="60px" />
+						    <span data-barcolor="#B03060" data-trackcolor="#dddddd" data-scalecolor="#dddddd" data-size="60" data-linewidth="4" style="width: 60px; height: 60px;">
+							    <img class="img-circle" src="assets/images/avatars/ha.png" width="60px" />
 						    </span> 
 					    </li>
 					    <li class="clearfix">
 						    <span class="stat-number">Đào Trường Sang</span>
 						    <span class="stat-title">MSSV: 20181723</span>
 
-						    <span data-barcolor="#F8CB00" data-trackcolor="#dddddd" data-scalecolor="#dddddd" data-size="60" data-linewidth="4" style="width: 60px; height: 60px;">
-							    <img class="img-circle" src="assets/images/sang.png" width="60px" />
+						    <span data-barcolor="#B03060" data-trackcolor="#dddddd" data-scalecolor="#dddddd" data-size="60" data-linewidth="4" style="width: 60px; height: 60px;">
+							    <img class="img-circle" src="assets/images/avatars/sang.png" width="60px" />
 						    </span> 
 					    </li>
 					    <li class="clearfix">
 						    <span class="stat-number">Nguyễn Thị Vân</span>
 						    <span class="stat-title">MSSV: 20181835</span>
 
-						    <span data-barcolor="#F8CB00" data-trackcolor="#dddddd" data-scalecolor="#dddddd" data-size="60" data-linewidth="4" style="width: 60px; height: 60px;">
-							    <img class="img-circle" src="assets/images/van.png" width="60px" />
+						    <span data-barcolor="#B03060" data-trackcolor="#dddddd" data-scalecolor="#dddddd" data-size="60" data-linewidth="4" style="width: 60px; height: 60px;">
+							    <img class="img-circle" src="assets/images/avatars/van.png" width="60px" />
 						    </span> 
 					    </li>
 				    </ul>

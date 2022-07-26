@@ -20,6 +20,10 @@ namespace MET_Station
         {
             string connectionString = ConfigurationManager.ConnectionStrings["ConStr"].ToString();
             _sql = new SQL(connectionString);
+            if (Convert.ToInt32(Session["UserRole"]) != 1)
+            {
+                Response.Redirect("/All.aspx");
+            }
         }
 
         protected void btnXem_Click(object sender, EventArgs e)

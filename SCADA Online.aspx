@@ -18,7 +18,7 @@
 				</div>
 				    <!-- /right options -->
 			    <div class="panel-body text-center">
-				 <h3><strong>TRẠM QUAN TRẮC THỜI TIẾT QUA MODULE 4G SIEMENS</strong></h3>
+				 <h3><strong>TRẠM QUAN TRẮC THỜI TIẾT</strong></h3>
 				</div>
 				 <div class="panel-footer">
 

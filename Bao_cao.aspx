@@ -20,7 +20,7 @@
 				</div>
 				    <!-- /right options -->
 			    <div class="panel-body text-center">
-				 <h3><strong>TRẠM QUAN TRẮC THỜI TIẾT QUA MODULE 4G SIEMENS</strong></h3>
+				 <h3><strong>TRẠM QUAN TRẮC THỜI TIẾT </strong></h3>
 					<h4><strong>XUẤT BÁO CÁO CẢM BIẾN </strong></h4>
 					    <asp:Label ID="Label1" runat="server" Font-Size="Medium" Text="ID: "></asp:Label> <asp:TextBox ID="tbxID" runat="server" placeholder="CB 001" Width="89px"></asp:TextBox>
                         <asp:Label ID="Label2" runat="server" Font-Size="Medium" Text=" Thời gian bắt đầu: "></asp:Label><asp:TextBox ID="tbxStarttime" runat="server" placeholder="dd/mm/yyyy hh:mm:ss"></asp:TextBox>

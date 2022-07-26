@@ -173,7 +173,7 @@ button:hover {
     position: relative;
     min-height: 100vh;
     z-index: 0;
-    background: #0568C1;
+    background: #D291BC;
     padding: 40px 40px;
     justify-content: center;
     display: grid;
@@ -243,9 +243,9 @@ p.account, p.account a {
     color: #333;
 }
 
-p.account a{
-    color:#0568C1;
-}
+    p.account a {
+        color: #D291BC;
+    }
 p.account a:hover {
     text-decoration: underline;
 }

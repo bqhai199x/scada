@@ -16,6 +16,7 @@ namespace MET_Station
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            Session.Clear();
         }
         public static string ConnectionString = ConfigurationManager.ConnectionStrings["ConStr"].ToString();
         protected void btdangnhap_Click(object sender, EventArgs e)
@@ -23,7 +24,7 @@ namespace MET_Station
             if (txttaikhoan.Text != null && txttaikhoan.Text.Trim() != "") { }
             else
             {
-                Response.Write("<script>alert('Vui lòng nhập tài khoản')</script>");    
+                Response.Write("<script>alert('Vui lòng nhập tài khoản')</script>");
                 txttaikhoan.Focus();
                 return;
             }
@@ -49,6 +50,9 @@ namespace MET_Station
             if (ds != null && ds.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
             {
                 Response.Write("<script>alert('Đăng nhập thành công')</script>");
+                Session["UserName"] = ds.Tables[0].Rows[0]["Ho_ten"];
+                Session["UserRole"] = ds.Tables[0].Rows[0]["Vai_tro"];
+                Session["UserAvatar"] = ds.Tables[0].Rows[0]["Anh"];
                 Response.Redirect("~/All.aspx");
             }
             else

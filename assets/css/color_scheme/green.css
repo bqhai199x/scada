@@ -31,12 +31,12 @@
 	#aside .logo,
 	body.min #asidesize,
 	#aside, #asidebg {
-		background-color: #5a6667;
+		background-color: #957DAD;
 	}
-	
-	body.min #aside ul.nav>li:hover:before {
-		border-right-color: #5a6667;
-	}
+
+body.min #aside ul.nav > li:hover:before {
+	border-right-color: #957DAD;
+}
 
 	.panel>.panel-heading strong {
 		color:#4b5354;
@@ -46,9 +46,9 @@
 		border-color:#4b5354;
 	}
 
-	.popular {
-		border-color:#5a6667 !important;
-	}
+.popular {
+	border-color: #957DAD !important;
+}
 	
 	/**
 		IMPORTANT
@@ -64,7 +64,7 @@
 	}
 	
 	@media only screen and (min-width: 768px) {
-		body.min #aside ul.nav>li:hover>a span {
-			background-color: #5a6667;
+		body.min #aside ul.nav > li:hover > a span {
+			background-color: #957DAD;
 		}
 	}

@@ -9,7 +9,7 @@
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <title>Dữ liệu cảm biến</title>
     <meta name="description" content="" />
-    <meta name="Author" content="Lê Văn Công" />
+    <meta name="Author" content="Đào Xuân Dũng" />
 
     <!-- mobile settings -->
     <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
@@ -69,16 +69,7 @@
                                 <i class="main-icon fa fa-search"></i> <span>Tìm Kiếm</span>
                             </a>
                         </li>
-                        <li class="el_primary" id="el_3">
-                            <a href="SCADA Online.aspx">
-                                <i class="main-icon fa fa-dashboard"></i> <span>Online SCADA</span>
-                            </a>
-                        </li>
-                        <li class="el_primary" id="el_4">
-                            <a href="Bao_cao.aspx">
-                                <i class="main-icon fa fa-list"></i> <span>Truy Xuất Báo Cáo</span>
-                            </a>
-                        </li>
+                        <asp:Literal ID="Literal_AdminMenu" runat="server"></asp:Literal>
                          <li class="el_primary" id="el_5">
                             <a href="Log_in.aspx">
                                 <i class="main-icon fa fa-user"></i> <span>Đăng Xuất</span>
@@ -109,10 +100,10 @@
                         <!-- USER OPTIONS -->
                         <li class="dropdown pull-left">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-                                <img class="user-avatar" alt="" src="assets/images/dung.png" height="34"> 
+                                <asp:Literal ID="Literal_Avatar" runat="server"></asp:Literal>
                                 <span class="user-name">
                                     <span class="hidden-xs">
-                                       Đào Xuân Dũng
+                                       <asp:Literal ID="Literal_UserName" runat="server"></asp:Literal>
                                     </span>
                                 </span>
                             </a>

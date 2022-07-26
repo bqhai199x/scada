@@ -1928,6 +1928,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="assets\images\avatars\" />
     <Folder Include="assets\images\patterns\" />
     <Folder Include="assets\plugins\jquery-file-upload\server\node\public\files\thumbnail\" />
     <Folder Include="assets\plugins\jquery-file-upload\server\node\tmp\" />
